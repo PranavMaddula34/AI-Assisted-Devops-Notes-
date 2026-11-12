@@ -1,2 +1,48 @@
-Started the course on YT (AI Assisted Devops)
-1. Created a github repo and testing the commits
+AI-ASSISTED DEVOPS — DAY 1
+========================================
+Course: AI-Assisted DevOps (YouTube)
+Practice: Created a GitHub repository and tested commits
+
+REAL-WORLD DEVOPS WORKFLOW
+========================================
+
+	┌──────────────────────────────────────────────┐
+	│  1. SOURCE CONTROL                            │
+	│  Developer pushes code to GitHub              │
+	└──────────────────────────────────────────────┘
+											 │
+											 ▼
+	┌──────────────────────────────────────────────┐
+	│  2. CONTINUOUS INTEGRATION — GitHub Actions   │
+	│  Build, test, scan, and validate the code     │
+	└──────────────────────────────────────────────┘
+											 │
+											 ▼
+	┌──────────────────────────────────────────────┐
+	│  3. CONTAINER BUILD — Docker                  │
+	│  Package the application into an image       │
+	│  Publish image to Azure Container Registry    │
+	└──────────────────────────────────────────────┘
+											 │
+											 ▼
+	┌──────────────────────────────────────────────┐
+	│  4. GITOPS DEPLOYMENT — Argo CD                │
+	│  Detect configuration changes in Git          │
+	│  and synchronize the desired deployment       │
+	└──────────────────────────────────────────────┘
+											 │
+											 ▼
+	┌──────────────────────────────────────────────┐
+	│  5. KUBERNETES — Azure Kubernetes Service     │
+	│  (AKS) runs and manages the application       │
+	│  containers                                   │
+	└──────────────────────────────────────────────┘
+											 │
+											 ▼
+	┌──────────────────────────────────────────────┐
+	│  6. OBSERVABILITY                              │
+	│  Prometheus • Grafana • Logs • Alerts         │
+	│  Monitor health and troubleshoot issues       │
+	└──────────────────────────────────────────────┘
+====================================================
+
